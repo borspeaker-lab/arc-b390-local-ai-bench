@@ -1,0 +1,13 @@
+date,os,model,pair,score,seconds_per_line,refusals,gen_tok_s,ollama,gpu_layers
+2026-11-20,Ubuntu 26.04 (Mesa 26.2.6),abliterated,en_ru,9,0.85,0,30.7,0.40.11,31/31
+2026-11-20,Ubuntu 26.04 (Mesa 26.2.6),abliterated,zh_ru,7.5,0.85,0,30.7,0.40.11,31/31
+2026-11-20,Ubuntu 26.04 (Mesa 26.2.6),abliterated,zh_en,8.5,0.85,0,30.7,0.40.11,31/31
+2026-11-20,Ubuntu 26.04 (Mesa 26.2.6),abliterated,en_zh,8,0.75,0,30.7,0.40.11,31/31
+2026-11-20,Ubuntu 26.04 (Mesa 26.2.6),abliterated,ru_zh,8.5,0.75,0,30.7,0.40.11,31/31
+2026-11-20,Ubuntu 26.04 (Mesa 26.2.6),official gemma4:26b,en_ru,9,0.80,0,32.4,0.40.11,31/31
+2026-11-20,Ubuntu 26.04 (Mesa 26.2.6),official gemma4:26b,zh_ru,8.5,0.85,0,32.4,0.40.11,31/31
+2026-11-20,Ubuntu 26.04 (Mesa 26.2.6),official gemma4:26b,zh_en,8.5,0.70,0,32.4,0.40.11,31/31
+2026-11-20,Ubuntu 26.04 (Mesa 26.2.6),official gemma4:26b,en_zh,8.5,0.70,0,32.4,0.40.11,31/31
+2026-11-20,Ubuntu 26.04 (Mesa 26.2.6),official gemma4:26b,ru_zh,8.5,0.65,0,32.4,0.40.11,31/31
+2026-11-20,Windows 11,abliterated,all 5 pairs,,0.97 (0.90 without first request),0,29.3,0.40.16,30/31
+2026-11-20,Windows 11,official gemma4:26b,all 5 pairs,,0.91 (0.82 without first request),0,32.2,0.40.16,30/31

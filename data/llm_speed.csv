@@ -1,0 +1,14 @@
+date,os,model,backend,driver,setting,pp512_tok_s,tg128_tok_s,source
+2026-10-30,Ubuntu 26.04,Gemma 4 26B-A4B QAT Q4_K_M,CPU,,16 threads,108.87,23.03,llama-bench b11946
+2026-10-30,Ubuntu 26.04,Gemma 4 26B-A4B QAT Q4_K_M,Vulkan iGPU,Mesa 26.0.8,ngl 99 fa 1,687.82,16.23,llama-bench b11946
+2026-10-30,Ubuntu 26.04,Gemma 4 26B-A4B QAT Q4_K_M,Vulkan hybrid,Mesa 26.0.8,ngl 0 (weights on CPU),195.38,16.51,llama-bench b11946
+2026-10-30,Ubuntu 26.04,Qwen3 30B-A3B Q4_K_M,CPU,,16 threads,113.84,27.79,llama-bench b11946
+2026-10-30,Ubuntu 26.04,Qwen3 30B-A3B Q4_K_M,Vulkan iGPU,Mesa 26.0.8,ngl 99 fa 1,687.86,22.61,llama-bench b11946
+2026-11-19,Ubuntu 26.04,Gemma 4 26B-A4B QAT Q4_K_M,Vulkan iGPU,Mesa 26.2.6 (kisak PPA),ngl 99 fa 1,743.9,33.65,llama-bench b11946
+2026-11-19,Ubuntu 26.04,Gemma 4 26B-A4B QAT Q4_K_M,CPU,,16 threads,103.6,20.71,llama-bench b11946
+2026-11-19,Windows 11,Gemma 4 26B-A4B QAT Q4_K_M,Vulkan iGPU,Arc driver 32.0.101.9175,Ollama num_gpu 29,480,32.5,Ollama
+2026-11-19,Windows 11,Gemma 4 26B-A4B QAT Q4_K_M,CPU,,Ollama,,21.8,Ollama
+2026-11-20,Ubuntu 26.04,Gemma 4 26B-A4B official Q4_K_M,Vulkan iGPU,Mesa 26.2.6,Ollama 0.40.11 31/31 layers,,32.4,Ollama
+2026-11-20,Ubuntu 26.04,Gemma 4 26B-A4B abliterated Q4_K_M,Vulkan iGPU,Mesa 26.2.6,Ollama 0.40.11 31/31 layers,,30.7,Ollama
+2026-11-20,Windows 11,Gemma 4 26B-A4B official Q4_K_M,Vulkan iGPU,Arc driver,Ollama 0.40.16 30/31 layers,,32.2,Ollama
+2026-11-20,Windows 11,Gemma 4 26B-A4B abliterated Q4_K_M,Vulkan iGPU,Arc driver,Ollama 0.40.16 30/31 layers,,29.3,Ollama

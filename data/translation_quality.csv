@@ -1,0 +1,12 @@
+model,type,en_ru,zh_ru,zh_en,en_zh,ru_zh,seconds_per_line
+Claude Sonnet (via claude CLI),cloud,9.5,8.5,9,8,9,0.5
+DeepSeek deepseek-flash,cloud,9,8,9,8.5,8,0.4
+DeepSeek deepseek-v4-pro,cloud,9,8,8.5,8,8,1.2
+Gemma 4 26B-A4B QAT (abliterated build),local-cpu,9,8,8.5,8,8.5,8.1
+qwen3.5 35B-A3B (abliterated build),local-cpu,8.5,7.5,8,8,7.5,5.4
+qwen3:30b-a3b,local-cpu,7,5,8.5,7.5,7.5,5.1
+qwen3 30B-A3B instruct-2507 (abliterated build),local-cpu,6.5,5,8,7,7.5,5.4
+qwen3:14b,local-cpu,5.5,4,8,8,7.5,18.4
+qwen3 14B (abliterated build),local-cpu,5.5,4,7.5,8,7.5,16.6
+hy-mt1.5 7B (abliterated build),local-cpu,,6,7.5,7,6.5,26.8
+Gemma 4 26B-A4B official (ollama gemma4:26b),local-igpu,9,8.5,8.5,8.5,8.5,0.74

@@ -1,0 +1,8 @@
+model,runtime,device,settings,seconds_per_180s_clip,rtf,wer_en,wer_ru,cer_ja,note
+whisper-large-v3 int8,faster-whisper,CPU,beam 5; 4 threads,61.3,0.34,5.7,5.1,7.0
+whisper-large-v3 int8,faster-whisper,CPU,beam 1; 4 threads,47.1,0.26,6.0,5.6,6.8
+whisper-large-v3 int8,OpenVINO GenAI 2026.4.1,CPU,greedy,56.8,0.32,8.0,5.1,6.0
+whisper-large-v3 int8,OpenVINO GenAI 2026.4.1,iGPU Arc B390,greedy,19.0,0.105,8.0,5.1,6.0
+whisper-large-v3 int8,OpenVINO GenAI 2026.4.1,NPU,greedy; word timestamps,36.5,0.20,,,,text identical to iGPU (ru/en) or within a few characters (ja/zh)
+qwen3-asr-1.7b Q8_0,llama.cpp b11946,CPU,8 threads,53.3,0.30,6.2,9.8,8.4
+qwen3-asr-1.7b Q8_0,llama.cpp b11946 Vulkan,iGPU Arc B390,-ngl 99,33.4,0.185,6.2,9.8,8.3

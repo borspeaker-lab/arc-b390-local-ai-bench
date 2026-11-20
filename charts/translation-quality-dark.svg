@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="400" viewBox="0 0 760 400" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="Subtitle translation quality by language pair">
+<title>Subtitle translation quality by language pair</title>
+<rect width="760" height="400" rx="8" fill="#1a1a19"/>
+<text x="20" y="30" font-size="17" font-weight="600" fill="#f0efec">Subtitle translation quality by language pair</text>
+<text x="20" y="52" font-size="13" fill="#c3c2b7">20-line everyday-speech text, judged 0-10. Local = on this laptop; Gemma 4 = official build.</text>
+<rect x="20" y="68" width="12" height="12" rx="3" fill="#3987e5"/>
+<text x="38" y="79" font-size="13" fill="#f0efec">Claude Sonnet (cloud)</text>
+<rect x="201.0" y="68" width="12" height="12" rx="3" fill="#d95926"/>
+<text x="219.0" y="79" font-size="13" fill="#f0efec">DeepSeek flash (cloud)</text>
+<rect x="389.0" y="68" width="12" height="12" rx="3" fill="#199e70"/>
+<text x="407.0" y="79" font-size="13" fill="#f0efec">Gemma 4 26B (local)</text>
+<rect x="556.0" y="68" width="12" height="12" rx="3" fill="#c98500"/>
+<text x="574.0" y="79" font-size="13" fill="#f0efec">qwen3:30b-a3b (local)</text>
+<line x1="50" y1="350.0" x2="740" y2="350.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="42" y="354.0" font-size="12" text-anchor="end" fill="#898781">0</text>
+<line x1="50" y1="301.6" x2="740" y2="301.6" stroke="#2c2c2a" stroke-width="1"/>
+<text x="42" y="305.6" font-size="12" text-anchor="end" fill="#898781">2</text>
+<line x1="50" y1="253.2" x2="740" y2="253.2" stroke="#2c2c2a" stroke-width="1"/>
+<text x="42" y="257.2" font-size="12" text-anchor="end" fill="#898781">4</text>
+<line x1="50" y1="204.8" x2="740" y2="204.8" stroke="#2c2c2a" stroke-width="1"/>
+<text x="42" y="208.8" font-size="12" text-anchor="end" fill="#898781">6</text>
+<line x1="50" y1="156.4" x2="740" y2="156.4" stroke="#2c2c2a" stroke-width="1"/>
+<text x="42" y="160.4" font-size="12" text-anchor="end" fill="#898781">8</text>
+<line x1="50" y1="108.0" x2="740" y2="108.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="42" y="112.0" font-size="12" text-anchor="end" fill="#898781">10</text>
+<path d="M71.0,350.0 V124.1 Q71.0,120.1 75.0,120.1 H89.0 Q93.0,120.1 93.0,124.1 V350.0 Z" fill="#3987e5"><title>Claude Sonnet (cloud), en→ru: 9.5/10</title></path>
+<path d="M95.0,350.0 V136.2 Q95.0,132.2 99.0,132.2 H113.0 Q117.0,132.2 117.0,136.2 V350.0 Z" fill="#d95926"><title>DeepSeek flash (cloud), en→ru: 9/10</title></path>
+<path d="M119.0,350.0 V136.2 Q119.0,132.2 123.0,132.2 H137.0 Q141.0,132.2 141.0,136.2 V350.0 Z" fill="#199e70"><title>Gemma 4 26B (local), en→ru: 9/10</title></path>
+<path d="M143.0,350.0 V184.6 Q143.0,180.6 147.0,180.6 H161.0 Q165.0,180.6 165.0,184.6 V350.0 Z" fill="#c98500"><title>qwen3:30b-a3b (local), en→ru: 7/10</title></path>
+<text x="119.0" y="372" font-size="13" text-anchor="middle" fill="#f0efec">en→ru</text>
+<path d="M209.0,350.0 V148.3 Q209.0,144.3 213.0,144.3 H227.0 Q231.0,144.3 231.0,148.3 V350.0 Z" fill="#3987e5"><title>Claude Sonnet (cloud), zh→ru: 8.5/10</title></path>
+<path d="M233.0,350.0 V160.4 Q233.0,156.4 237.0,156.4 H251.0 Q255.0,156.4 255.0,160.4 V350.0 Z" fill="#d95926"><title>DeepSeek flash (cloud), zh→ru: 8/10</title></path>
+<path d="M257.0,350.0 V148.3 Q257.0,144.3 261.0,144.3 H275.0 Q279.0,144.3 279.0,148.3 V350.0 Z" fill="#199e70"><title>Gemma 4 26B (local), zh→ru: 8.5/10</title></path>
+<path d="M281.0,350.0 V233.0 Q281.0,229.0 285.0,229.0 H299.0 Q303.0,229.0 303.0,233.0 V350.0 Z" fill="#c98500"><title>qwen3:30b-a3b (local), zh→ru: 5/10</title></path>
+<text x="257.0" y="372" font-size="13" text-anchor="middle" fill="#f0efec">zh→ru</text>
+<path d="M347.0,350.0 V136.2 Q347.0,132.2 351.0,132.2 H365.0 Q369.0,132.2 369.0,136.2 V350.0 Z" fill="#3987e5"><title>Claude Sonnet (cloud), zh→en: 9/10</title></path>
+<path d="M371.0,350.0 V136.2 Q371.0,132.2 375.0,132.2 H389.0 Q393.0,132.2 393.0,136.2 V350.0 Z" fill="#d95926"><title>DeepSeek flash (cloud), zh→en: 9/10</title></path>
+<path d="M395.0,350.0 V148.3 Q395.0,144.3 399.0,144.3 H413.0 Q417.0,144.3 417.0,148.3 V350.0 Z" fill="#199e70"><title>Gemma 4 26B (local), zh→en: 8.5/10</title></path>
+<path d="M419.0,350.0 V148.3 Q419.0,144.3 423.0,144.3 H437.0 Q441.0,144.3 441.0,148.3 V350.0 Z" fill="#c98500"><title>qwen3:30b-a3b (local), zh→en: 8.5/10</title></path>
+<text x="395.0" y="372" font-size="13" text-anchor="middle" fill="#f0efec">zh→en</text>
+<path d="M485.0,350.0 V160.4 Q485.0,156.4 489.0,156.4 H503.0 Q507.0,156.4 507.0,160.4 V350.0 Z" fill="#3987e5"><title>Claude Sonnet (cloud), en→zh: 8/10</title></path>
+<path d="M509.0,350.0 V148.3 Q509.0,144.3 513.0,144.3 H527.0 Q531.0,144.3 531.0,148.3 V350.0 Z" fill="#d95926"><title>DeepSeek flash (cloud), en→zh: 8.5/10</title></path>
+<path d="M533.0,350.0 V148.3 Q533.0,144.3 537.0,144.3 H551.0 Q555.0,144.3 555.0,148.3 V350.0 Z" fill="#199e70"><title>Gemma 4 26B (local), en→zh: 8.5/10</title></path>
+<path d="M557.0,350.0 V172.5 Q557.0,168.5 561.0,168.5 H575.0 Q579.0,168.5 579.0,172.5 V350.0 Z" fill="#c98500"><title>qwen3:30b-a3b (local), en→zh: 7.5/10</title></path>
+<text x="533.0" y="372" font-size="13" text-anchor="middle" fill="#f0efec">en→zh</text>
+<path d="M623.0,350.0 V136.2 Q623.0,132.2 627.0,132.2 H641.0 Q645.0,132.2 645.0,136.2 V350.0 Z" fill="#3987e5"><title>Claude Sonnet (cloud), ru→zh: 9/10</title></path>
+<path d="M647.0,350.0 V160.4 Q647.0,156.4 651.0,156.4 H665.0 Q669.0,156.4 669.0,160.4 V350.0 Z" fill="#d95926"><title>DeepSeek flash (cloud), ru→zh: 8/10</title></path>
+<path d="M671.0,350.0 V148.3 Q671.0,144.3 675.0,144.3 H689.0 Q693.0,144.3 693.0,148.3 V350.0 Z" fill="#199e70"><title>Gemma 4 26B (local), ru→zh: 8.5/10</title></path>
+<path d="M695.0,350.0 V172.5 Q695.0,168.5 699.0,168.5 H713.0 Q717.0,168.5 717.0,172.5 V350.0 Z" fill="#c98500"><title>qwen3:30b-a3b (local), ru→zh: 7.5/10</title></path>
+<text x="671.0" y="372" font-size="13" text-anchor="middle" fill="#f0efec">ru→zh</text>
+<line x1="50" y1="350" x2="740" y2="350" stroke="#383835" stroke-width="1"/>
+<text x="740" y="392" font-size="12" text-anchor="end" fill="#898781">score /10, higher is better</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="294" viewBox="0 0 760 294" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="Whisper large-v3: time to transcribe 3 min of speech">
+<title>Whisper large-v3: time to transcribe 3 min of speech</title>
+<rect width="760" height="294" rx="8" fill="#fcfcfb"/>
+<text x="20" y="30" font-size="17" font-weight="600" fill="#0b0b0b">Whisper large-v3: time to transcribe 3 min of speech</text>
+<text x="20" y="52" font-size="13" fill="#52514e">Core Ultra X7 358H, Ubuntu 26.04, mean of 4 clips (en/ru/ja/zh). Lower is better.</text>
+<line x1="290.0" y1="72" x2="290.0" y2="254" stroke="#e1e0d9" stroke-width="1"/>
+<text x="290.0" y="272" font-size="12" text-anchor="middle" fill="#898781">0</text>
+<line x1="347.1" y1="72" x2="347.1" y2="254" stroke="#e1e0d9" stroke-width="1"/>
+<text x="347.1" y="272" font-size="12" text-anchor="middle" fill="#898781">10</text>
+<line x1="404.3" y1="72" x2="404.3" y2="254" stroke="#e1e0d9" stroke-width="1"/>
+<text x="404.3" y="272" font-size="12" text-anchor="middle" fill="#898781">20</text>
+<line x1="461.4" y1="72" x2="461.4" y2="254" stroke="#e1e0d9" stroke-width="1"/>
+<text x="461.4" y="272" font-size="12" text-anchor="middle" fill="#898781">30</text>
+<line x1="518.6" y1="72" x2="518.6" y2="254" stroke="#e1e0d9" stroke-width="1"/>
+<text x="518.6" y="272" font-size="12" text-anchor="middle" fill="#898781">40</text>
+<line x1="575.7" y1="72" x2="575.7" y2="254" stroke="#e1e0d9" stroke-width="1"/>
+<text x="575.7" y="272" font-size="12" text-anchor="middle" fill="#898781">50</text>
+<line x1="632.9" y1="72" x2="632.9" y2="254" stroke="#e1e0d9" stroke-width="1"/>
+<text x="632.9" y="272" font-size="12" text-anchor="middle" fill="#898781">60</text>
+<line x1="690.0" y1="72" x2="690.0" y2="254" stroke="#e1e0d9" stroke-width="1"/>
+<text x="690.0" y="272" font-size="12" text-anchor="middle" fill="#898781">70</text>
+<text x="690.0" y="286" font-size="12" text-anchor="end" fill="#898781">seconds</text>
+<text x="278" y="93" font-size="13" text-anchor="end" fill="#0b0b0b" font-weight="600">OpenVINO int8, Arc B390 iGPU</text>
+<text x="278" y="107" font-size="11" text-anchor="end" fill="#898781">RTF 0.105, greedy</text>
+<path d="M290.0,82.0 H394.6 Q398.6,82.0 398.6,86.0 V96.0 Q398.6,100.0 394.6,100.0 H290.0 Z" fill="#2a78d6"><title>OpenVINO int8, Arc B390 iGPU: 19 seconds</title></path>
+<text x="404.6" y="96" font-size="13" fill="#52514e">19</text>
+<text x="278" y="127" font-size="13" text-anchor="end" fill="#0b0b0b">OpenVINO int8, NPU</text>
+<text x="278" y="141" font-size="11" text-anchor="end" fill="#898781">RTF 0.20, greedy</text>
+<path d="M290.0,116.0 H494.6 Q498.6,116.0 498.6,120.0 V130.0 Q498.6,134.0 494.6,134.0 H290.0 Z" fill="#b7d3f6"><title>OpenVINO int8, NPU: 36.5 seconds</title></path>
+<text x="504.6" y="130" font-size="13" fill="#52514e">36.5</text>
+<text x="278" y="161" font-size="13" text-anchor="end" fill="#0b0b0b">faster-whisper int8, CPU, beam 1</text>
+<text x="278" y="175" font-size="11" text-anchor="end" fill="#898781">4 threads</text>
+<path d="M290.0,150.0 H555.1 Q559.1,150.0 559.1,154.0 V164.0 Q559.1,168.0 555.1,168.0 H290.0 Z" fill="#b7d3f6"><title>faster-whisper int8, CPU, beam 1: 47.1 seconds</title></path>
+<text x="565.1" y="164" font-size="13" fill="#52514e">47.1</text>
+<text x="278" y="195" font-size="13" text-anchor="end" fill="#0b0b0b">OpenVINO int8, CPU</text>
+<text x="278" y="209" font-size="11" text-anchor="end" fill="#898781">greedy</text>
+<path d="M290.0,184.0 H610.6 Q614.6,184.0 614.6,188.0 V198.0 Q614.6,202.0 610.6,202.0 H290.0 Z" fill="#b7d3f6"><title>OpenVINO int8, CPU: 56.8 seconds</title></path>
+<text x="620.6" y="198" font-size="13" fill="#52514e">56.8</text>
+<text x="278" y="229" font-size="13" text-anchor="end" fill="#0b0b0b">faster-whisper int8, CPU, beam 5</text>
+<text x="278" y="243" font-size="11" text-anchor="end" fill="#898781">4 threads, the usual default</text>
+<path d="M290.0,218.0 H636.3 Q640.3,218.0 640.3,222.0 V232.0 Q640.3,236.0 636.3,236.0 H290.0 Z" fill="#b7d3f6"><title>faster-whisper int8, CPU, beam 5: 61.3 seconds</title></path>
+<text x="646.3" y="232" font-size="13" fill="#52514e">61.3</text>
+<line x1="290" y1="72" x2="290" y2="254" stroke="#c3c2b7" stroke-width="1"/>
+</svg>
